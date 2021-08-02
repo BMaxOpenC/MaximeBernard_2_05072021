@@ -8,6 +8,14 @@ p
     color: blue;
 }
 
+#filter
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
 section
 {
     border: 3px grey solid;
@@ -22,9 +30,10 @@ section
 
 }
 
-#footer
+.footer
 {
     display: flex;
+    background-color: #f2f2f2;
     flex-wrap: wrap;
     justify-content: space-around;
 }
