@@ -25,3 +25,10 @@ body
     display: flex;
     flex-direction: column; 
 }
+
+
+a:hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+    color: #0065fc;
+}
