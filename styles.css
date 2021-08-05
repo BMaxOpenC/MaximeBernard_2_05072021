@@ -4,6 +4,40 @@ body
   margin: 0;
 }
 
+#bloc_page
+{
+    width: 900px;
+    margin:auto
+}
+
+/* Navbar */
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;  
+}
+
+
+nav li
+{
+    margin-right: 15px;   
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065fc;
+    text-decoration: overline;
+}
+
 
 /* Footer */
 
