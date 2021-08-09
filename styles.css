@@ -4,94 +4,76 @@ body {
     font-family: 'Raleway', sans-serif;;
     margin: 0;
   }
-
-#bloc_page
-{
-    width: 900px;
-    margin:auto
-}
-
-/* Navbar */
-
-header {
+  
+  
+  /* Navigation */
+  
+  header {
     width: 98%;
     max-width: 1440px;
     margin: auto;
-}
+  }
   
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-    width: 120px;
-    height: 50px;
-}
-
-.nav-list
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 45%;
-    list-style-type: none
-}
-
-nav a
-{
-    font-size: 1.3em;
-    color: #181818;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
-nav a:hover
-{
-    color: #0065fc;
-    text-decoration: overline;
-}
-
-
-/* Footer */
-
-.footer
-{
-    width: 100%;
-    background: #F2F2F2;
-}
-
-.footer-sections
-{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-   
-}
-
-.footer-section
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: 18px;
-    padding-right: 20%;
-}
-
-h3
-{
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-a{
-    margin-bottom: 10px;
-}
-
-a:hover /* Apparence au survol des liens */
-{
-    text-decoration: underline;
-    color: #0065fc;
-}
+  nav
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 160%;
+  }
+  
+  .logo{
+      width: 120px;
+      height: 50px;
+  }
+  
+  .nav-list
+  {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 25%;
+      list-style-type: none;
+      padding: 30px;
+      font-weight: 550;
+  }
+  
+  .nav-itemA
+  {
+      color: #0065fc;
+      text-decoration: none;
+      margin-left: 10px;
+      border-top: 2px solid #0065fc;
+      width: 120px;
+  
+      padding-top: 43px;
+      padding-left: 25px;
+      padding-right: 25px;
+           
+  }
+  
+  .nav-itemB
+  {
+      text-decoration: none;
+      color: black; 
+      padding-top: 43px;
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 100%;    
+  }
+  
+  .nav-itemB:hover
+  {
+      color: #0065fc;
+      border-top: 2px solid #0065fc;
+  }
+  
+  .nav-itemC
+  {
+      color: #0065fc;
+      font-weight: bold;
+      text-decoration: none;
+      padding-right: 25px;
+      
+  }
+  
