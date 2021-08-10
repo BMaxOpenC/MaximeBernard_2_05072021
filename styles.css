@@ -74,6 +74,18 @@ body {
       font-weight: bold;
       text-decoration: none;
       padding-right: 25px;
-      
   }
   
+  /* Section 1 - Research */
+section
+{
+    width: 98%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.searchbar
+{
+    display: flex;
+    justify-content: center;
+}
