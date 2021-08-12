@@ -130,3 +130,37 @@ section
     padding: 10px;
     cursor: pointer
 }
+
+* Filters */
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-top: ;
+    margin-bottom: ;
+    
+}
+
+.filtersection {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.iconfilter {
+    background-color: #DEEBFF;
+    color: #0065fc;
+    padding: 18px;
+    border-radius: 200px;
+    margin-right: 15px;
+}
