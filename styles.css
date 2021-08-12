@@ -161,6 +161,7 @@ section
     background-color: #DEEBFF;
     color: #0065fc;
     padding: 18px;
-    border-radius: 200px;
+    border-radius: 25px;
     margin-right: 15px;
+    margin: -2px;
 }
