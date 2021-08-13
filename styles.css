@@ -131,6 +131,10 @@ section
     cursor: pointer
 }
 
+.researchbutton:hover {
+    background-color: royalblue;
+}
+
 /* Filters */
 
 .filters {
