@@ -142,7 +142,9 @@ section
     align-items: center;
     width: 98%;
     max-width: 1440px;
-    margin: auto; 
+    margin-top: 15px;
+    margin-left: 13px;
+     
 }
 
 .filtersection {
@@ -174,4 +176,25 @@ section
 
 .filter:hover {
     background-color: #DEEBFF ;
+}
+
+/* Info */
+
+.info{
+    width: 98%;
+    max-width: 1440px;
+    margin-top: 6px;
+    margin-left: 13px;
+    display: flex;
+    align-items: center;
+
+}
+
+.info-icon{
+    color: #0065fc;
+    border:1px solid #d9d9d9 ;
+    border-radius: 25px;
+    padding: 6px 9px 6px 9px;
+    font-size: 11px;
+    margin-right: 10px;
 }
