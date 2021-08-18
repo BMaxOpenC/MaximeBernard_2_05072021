@@ -229,3 +229,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.windows {
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
