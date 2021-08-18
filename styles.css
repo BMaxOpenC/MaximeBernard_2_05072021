@@ -232,7 +232,7 @@ body {
 
 .windows {
     width: 30%;
-    height: 200px;
+    height: auto;
     background-color: white;
     padding: 1%;
     border-radius: 20px;
