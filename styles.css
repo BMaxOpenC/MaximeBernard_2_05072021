@@ -189,24 +189,43 @@ body {
   }
   
   /* Accomodations */
-  
-  .results{
-      display: flex;
-      justify-content: space-around;
-  }
-  
-  .accomodations{
-      flex: 2;
-      height: 650px;
-      margin-right: 20px;
-      border-radius: 10px;
-      background-color: #f2f2f2;
-  }
-  
-  .popular{
-      flex: 1;
-      height: 650px;
-      margin-left: 20px;
-      border-radius: 10px;
-      background-color: #f2f2f2;
-  }
+
+.results{
+    display: flex;
+    justify-content: space-around;
+}
+
+.accomodations{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popular{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.imghbgmt {
+    width: 100%;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.lign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
