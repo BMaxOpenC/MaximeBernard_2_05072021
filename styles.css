@@ -333,3 +333,7 @@ body {
   .footer3 {
       margin-right: 25%;
   }
+
+  .decolinkfoot:hover {
+    text-shadow: royalblue;
+}
