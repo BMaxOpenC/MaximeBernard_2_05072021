@@ -238,6 +238,11 @@ body {
       padding: 1%;
       border-radius: 20px;
   }
+
+  .windows:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
   
   .description {
       width: 90%;
