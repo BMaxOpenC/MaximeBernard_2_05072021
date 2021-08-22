@@ -334,6 +334,11 @@ body {
       margin-right: 25%;
   }
 
-  .decolinkfoot:hover {
-    text-shadow: royalblue;
+  .decolinkfoot {
+    text-decoration: none;
+    color: black;
+}
+
+.decolinkfoot:hover {
+    font-weight: bold;
 }
