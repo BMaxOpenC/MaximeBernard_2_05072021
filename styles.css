@@ -145,11 +145,9 @@ body {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
-  
   }
   
   .filter {
-  
       margin-right: 25px;
       border: 2px solid #d9d9d9;
       border-radius: 30px;
@@ -165,7 +163,6 @@ body {
       border-radius: 25px;
       font-size: 17px;
       margin-right: 15px;
-      
   }
   
   .filter:hover {
@@ -178,7 +175,6 @@ body {
       margin-top: 6px;
       display: flex;
       align-items: center;
-  
   }
   
   .info-icon{
@@ -213,8 +209,6 @@ body {
   .imghbgmt {
       width: 100%;
       height: 120px;
-      background-position: center;
-      background-size: cover;
       border-radius: 15px 15px 0 0;
       object-fit: cover;
   }
@@ -307,8 +301,6 @@ body {
   .imgpop {
       width: 35%;
       height: 160px;
-      background-position: center;
-      background-size: cover;
       border-radius: 15px 0 0 15px;
       object-fit: cover;
   }
