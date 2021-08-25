@@ -59,8 +59,6 @@ body {
     padding-right: 25px;
   }
     
-
-  
   .nav-itemB
   {
       text-decoration: none;
@@ -269,57 +267,57 @@ body {
   /* Popular */
   
   .popular{
-      flex: 1;
-      height: 650px;
-      min-height: auto;
-      margin-left: 20px;
-      border-radius: 10px;
-      background-color: #f2f2f2;
-      padding: 20px;
-  }
-  
-  .titlepop {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  .selection {
-  
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-  }
-  
-  .pop {
-      height: auto;
-      background-color: white;
-      padding: 1% 0 1% 1%;
-      border-radius: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 22px;
-   }
-
-   .pop:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+    flex: 1;
+    height: 650px;
+    min-height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 40px;
 }
-  
-  .imgpop {
-      width: 35%;
-      height: 160px;
-      border-radius: 15px 0 0 15px;
-      object-fit: cover;
-  }
-      
-  
-  .descriptionpop {
-      width: 60%;
-      padding: 5px;
-      flex-basis: auto;
-  }
+
+.titlepop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pop {
+    height: auto;
+    background-color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+ }
+
+ .pop:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.imgpop {
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+}
+    
+
+.descriptionpop {
+    width: 60%;
+    padding: 5px;    
+}
   
 
   
