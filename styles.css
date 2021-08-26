@@ -4,11 +4,6 @@ body {
     font-family: 'Raleway', sans-serif;;
 }
   
-h2 {
-    font-size: large;
-    font-weight: bolder;  
-}
-  
 .size {
     width: 98%;
     max-width: 1440px;
@@ -207,6 +202,11 @@ nav {
     justify-content: space-around;
 }
 
+.titlehbgt {
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
 .imghbgmt {
     width: 100%;
     height: 120px;
@@ -274,6 +274,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
 }
   
 .selection {
