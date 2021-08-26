@@ -42,11 +42,11 @@ nav {
     color: black;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 10px;
     width: 120px;
     padding-top: 43px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-right: 50px;
 }
   
 .nav-itemA:hover {
@@ -63,6 +63,7 @@ nav {
     padding-top: 43px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-right: 50px;
     width: 100%;    
 }
   
@@ -75,7 +76,8 @@ nav {
     color: #0065fc;
     font-weight: bold;
     text-decoration: none;
-    padding-right: 25px;
+    padding-right: 100px;
+    padding-left: 25px;
 }
   
   /* Section 1 - Research */
