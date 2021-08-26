@@ -191,7 +191,7 @@ nav {
 }
 
 .accomodations{
-    flex: 2;
+    flex: 2.5;
     height: 650px;
     margin-right: 20px;
     border-radius: 20px;
@@ -232,6 +232,7 @@ nav {
     background-color: white;
     padding: 0.7%;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .windows:hover {
@@ -239,9 +240,20 @@ nav {
     transform: scale(1.1);
 }
 
-.description {
-    width: 90%;
-    padding-left: 15px;
+.namehostel {
+    padding-left: 10px;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.night {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.price {
+    font-weight: bold;
 }
 
 .showmore {
@@ -312,6 +324,12 @@ nav {
     width: 60%;
     padding: 5px;
     flex-basis: auto;
+}
+
+.namehostelpop {
+    padding-left: 10px;
+    font-size: medium;
+    margin-top: 5px;
 }
 
   /* Activity*/
