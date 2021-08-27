@@ -294,12 +294,18 @@ nav {
     padding: 40px;
 }
   
-.titlepop {
+.headpop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -20px;
-    margin-bottom: 10px;
+}
+
+.titlepop {
+    margin-top: 5px;
+}
+
+.chart {
+    font-size: x-large;
 }
   
 .selection {
