@@ -192,7 +192,7 @@ nav {
 
 .accomodations{
     flex: 2.5;
-    height: 650px;
+    height: 550px;
     margin-right: 20px;
     border-radius: 20px;
     background-color: #f2f2f2;
@@ -203,8 +203,7 @@ nav {
 }
 
 .titlehbgt {
-    margin-top: -5px;
-    margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 .imghbgmt {
@@ -264,10 +263,15 @@ nav {
     font-size: small;
 }
 
+.more {
+    padding-top: 25px;
+}
+
 .showmore {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    padding-top: 25px;
 }
 
 .starblue {
