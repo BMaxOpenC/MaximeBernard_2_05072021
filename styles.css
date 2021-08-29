@@ -286,7 +286,7 @@ nav {
   
 .popular {
     flex: 1;
-    height: 650px;
+    height: 550px;
     min-height: auto;
     margin-left: 20px;
     border-radius: 20px;
@@ -298,6 +298,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -10px;
 }
 
 .titlepop {
@@ -317,13 +318,11 @@ nav {
 .pop {
     height: auto;
     background-color: white;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .pop:hover {
@@ -333,21 +332,37 @@ nav {
   
 .imgpop {
     width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
+    height: 135px;
+    border-radius: 20px 0 0 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
     object-fit: cover;
 }
       
 .descriptionpop {
     width: 60%;
     padding: 5px;
-    flex-basis: auto;
+    height: 135px;
 }
 
 .namehostelpop {
-    padding-left: 10px;
-    font-size: medium;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 112%;
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nightpop {
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.starspop {
+    padding-left: 15px;
+    font-size: 70%;
 }
 
   /* Activity*/
