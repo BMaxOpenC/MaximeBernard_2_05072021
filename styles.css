@@ -374,7 +374,7 @@ nav {
 
 .blocactivity1 {
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -382,7 +382,7 @@ nav {
 
 .blocactivity2 {
     width: 23%;
-    height: 600px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -391,40 +391,38 @@ nav {
 .cubeactivites {
     width: 23%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 0 0 20px #0000002e;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .cubeactivites2 {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 0 0 20px #0000002e;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .imgacti1 {
     width: 100%;
-    height: 530px;
+    height: 430px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .imgacti2 {
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
 .imgacti3 {
     width: 100%;
-    height: 150px;
+    height: 130px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
@@ -435,7 +433,10 @@ nav {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
-
+.actititle {
+    padding-left: 20px;
+    font-size: 90%;
+}
   /*Footer*/
   
 .footer {
