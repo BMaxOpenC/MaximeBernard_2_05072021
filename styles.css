@@ -454,6 +454,14 @@ nav {
     padding-left: 20px;
     font-size: 90%;
 }
+.acti1-4:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.acti2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
   /*Footer*/
   
 .footer {
