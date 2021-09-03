@@ -543,7 +543,37 @@ nav {
         margin-right: 0;
     }
 
-}
+    .acticards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .titleact {
+        margin-bottom: 30px;
+    }
+
+    .acticards1, .acticards3 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .acticards2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .acti2 {
+        margin-bottom: 30px;
+    }
+    
+    .acti1-4, .acti2 {
+        box-shadow: 0px 3px 20px  #0000002e;
+    }
+
+    .imgacti1-4, .imgacti2, .imgacti3, .imgacti5, .imgacti6 {
+        height: 150px;
+    }
 
 @media screen and (max-width: 770px) {
   
