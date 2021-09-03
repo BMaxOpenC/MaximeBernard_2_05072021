@@ -541,6 +541,7 @@ nav {
     .filter {
         padding-right: 15px;
         margin-right: 0;
+        margin-bottom: 15px;
     }
 
     .acticards {
