@@ -502,7 +502,7 @@ nav {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1255px) {
+@media screen and (max-width: 1280px) {
     
     #accomodations {
         flex-direction: column-reverse;
@@ -516,6 +516,10 @@ nav {
         padding: 5%;
         height: auto;
         border-radius: 0;
+    }
+
+    .imgpop {
+        margin-left: -25px;
     }
 
     .accomodations {
@@ -551,6 +555,10 @@ nav {
         margin-bottom: 30px;
     }
 
+    .imgpop {
+        margin-left: -20px;
+    }
+
     .activitys {
         margin-bottom: 0px;
     }
@@ -579,6 +587,10 @@ nav {
     }
 
 @media screen and (max-width: 990px) {
+
+    .imgpop {
+        margin-left: -15px;
+    }
 
     .footer {
         flex-direction: column;
@@ -620,6 +632,10 @@ nav {
 
     .pop {
         margin-bottom: 15px;
+    }
+
+    .imgpop {
+        margin-left: 0px;
     }
 
     .headpop {
