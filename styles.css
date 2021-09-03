@@ -553,6 +553,10 @@ nav {
         margin-bottom: 30px;
     }
 
+    .activitys {
+        margin-bottom: 0px;
+    }
+
     .acticards1, .acticards3 {
         width: 100%;
         height: auto;
