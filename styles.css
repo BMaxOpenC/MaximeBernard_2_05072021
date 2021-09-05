@@ -9,7 +9,7 @@ a {
     color: initial;
 }
   
-.size {
+.sizehead {
     width: 98%;
     max-width: 1440px;
     margin: auto;
@@ -109,7 +109,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 233px;
+    width: 250px;
     font-size: 18px;
     font-weight: bold;
     border: none;
@@ -125,12 +125,16 @@ nav {
     border-radius: 0 14px 14px 0;
     background-color: #0065fc;
     color: white;
-    font-weight: 500;
-    font-size: 19px;
+    font-weight: 550;
+    font-size: larger;
     padding: 10px;
     cursor: pointer
 }
-  
+
+.researchbutton .fa-search{
+    display: none;
+}
+
 .researchbutton:hover {
     background-color: royalblue;
 }
@@ -503,6 +507,16 @@ nav {
 }
 
 @media screen and (max-width: 1280px) {
+    nav {
+        width: 92%;
+    }
+     .nav-itemA {
+         margin-right: 0px;
+     }
+
+    .nav-itemB {
+        margin-right: 0px;
+    }
     
     #accomodations {
         flex-direction: column-reverse;
@@ -658,4 +672,41 @@ nav {
         padding-top: 0;
         margin-top: 10px;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-list {
+        flex-wrap: wrap-reverse;
+    }
+
+    .sizelien12 {
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sizelienmobile {
+
+    }
+
+    .searchbar {
+        justify-content: start;
+    }
+
+    .researchbutton {
+        width: 50px;
+        border-radius: 15px;
+    }
+
+    .researchbutton .research{
+        display: none;
+    }
+
+    .researchbutton .fa-search{
+        background-color: #0065FC;
+        color: #fff;
+        display: block;
+    }
+    
 }
