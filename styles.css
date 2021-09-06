@@ -9,10 +9,11 @@ a {
     color: initial;
 }
   
-.sizehead {
+.size, .sizehead {
     width: 98%;
     max-width: 1440px;
-    margin: auto;
+    margin-left: 60px;
+    margin-right: 20px;
 }
   
   /* Navigation */
@@ -184,7 +185,7 @@ nav {
     align-items: center;
 }
   
-.info-icon{
+.info-icon {
     color: #0065fc;
     border:1px solid #d9d9d9 ;
     border-radius: 25px;
@@ -199,7 +200,7 @@ nav {
     display: flex;
 }
 
-.accomodations{
+.accomodations {
     flex: 2.5;
     height: 550px;
     margin-right: 20px;
@@ -507,6 +508,10 @@ nav {
 }
 
 @media screen and (max-width: 1280px) {
+    .size, .sizehead {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     nav {
         width: 92%;
     }
