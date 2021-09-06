@@ -679,21 +679,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 600px) {
-
-    .nav-list {
-        flex-wrap: wrap-reverse;
-    }
-
-    .sizelien12 {
-        order: 1;
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .sizelienmobile {
-
-    }
+@media screen and (max-width: 660px) {
 
     .searchbar {
         justify-content: start;
