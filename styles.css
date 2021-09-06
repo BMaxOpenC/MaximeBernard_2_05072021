@@ -24,7 +24,9 @@ nav {
     align-items: center;
 }
   
-#logo img {
+
+
+.logo {
     width: 120px;
     height: 50px;
 }
@@ -680,6 +682,15 @@ nav {
 }
 
 @media screen and (max-width: 660px) {
+
+    ul {
+        flex-wrap: wrap-reverse
+    }
+
+    .nav-itemA, .nav-itemB {
+        display: inline;
+    }
+
 
     .searchbar {
         justify-content: start;
