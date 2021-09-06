@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="styles.css">
@@ -13,14 +13,27 @@
     
     <body>
         <header class="sizehead">
-            <nav>
+            <nav class="nav1">
                 <img src="images/logo/Reservialogo.png" alt="Logo Reservia" class="logo">
 
                 <ul class="nav-list">
                     <li><a href="#accomodations" class="nav-itemA">Hébergements</a></li>
                     <li><a href="#activitys" class="nav-itemB">Activités</a></li>
-                    <li><a href="#" class="nav-itemC active">S'inscrire</a></li>
+                    <li><a href="#" class="nav-itemC">S'inscrire</a></li>
                 </ul>    
+            </nav>
+
+<!-- Responsive Mobile Research -->
+
+            <nav class="nav2">
+                <img src="images/logo/Reservialogo.png" alt="Logo Reservia" class="logo">
+                <a href="#" class="nav-itemC">S'inscrire</a>
+                <nav>
+                    <ul class="nav-list2">
+                        <li><a href="#accomodations" class="nav-itemA2">Hébergements</a></li>
+                        <li><a href="#activitys" class="nav-itemB2">Activités</a></li>
+                    </ul>
+                </nav>
             </nav>
         </header>
 
@@ -61,16 +74,16 @@
             </div>
         </section>
     
-    <!-- Section 2 Accommodation -->
+<!-- Section 2 Accommodation -->
 
         <section class="results size" id="accomodations">
             <div class="accomodations">
-                <h2 class="titlehbgt">Hébergements à Marseille</h2>
+                <h2 class="titleacco">Hébergements à Marseille</h2>
                 <div class="lign1">
                     
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière" title="Auberge la Cannebière" class="imghbgmt">
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière" title="Auberge la Cannebière" class="imgacco">
                         <h3 class="namehostel">Auberge de la Cannebière</h3>
                         <p class="night">Nuit à partir de <span class="price">25€</span></p>
                         <div class="stars">
@@ -85,7 +98,7 @@
 
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" title="Hôtel du port" class="imghbgmt">
+                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" title="Hôtel du port" class="imgacco">
                         <h3 class="namehostel">Hôtel du port</h3>
                         <p class="night">Nuit à partir de <span class="price">52€</span></p>
                         <div class="stars">
@@ -100,7 +113,7 @@
 
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes" title="Hôtel les mouettes" class="imghbgmt">
+                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes" title="Hôtel les mouettes" class="imgacco">
                         <h3 class="namehostel">Hôtel les mouettes</h3>
                         <p class="night">Nuit à partir de <span class="price">76€</span></p>
                         <div class="stars">
@@ -117,7 +130,7 @@
                 <div class="lign2">
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" title="Hôtel de la mer" class="imghbgmt">
+                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" title="Hôtel de la mer" class="imgacco">
                         <h3 class="namehostel">Hôtel de la mer</h3>
                         <p class="night">Nuit à partir de <span class="price">46€</span></p>
                         <div class="stars">
@@ -132,7 +145,7 @@
 
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" title="Auberge Le Panier" class="imghbgmt">
+                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" title="Auberge Le Panier" class="imgacco">
                         <h3 class="namehostel">Auberge Le Panier</h3>
                         <p class="night">Nuit à partir de <span class="price">25€</span></p>
                         <div class="stars">
@@ -147,7 +160,7 @@
 
                     <div class="windows">
                         <a href="#">
-                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina" class="imghbgmt">
+                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina" class="imgacco">
                         <h3 class="namehostel">Hôtel chez Amina</h3>
                         <p class="night">Nuit à partir de <span class="price">96€</span></p>
                         <div class="stars">
@@ -162,6 +175,8 @@
                 </div>
                 <h3 class="more"><a href="#" class="showmore">Afficher plus</a></h3>
             </div>
+
+<!-- Section 3 Popular -->
 
             <div class="popular">
                 <div class="headpop">
@@ -226,7 +241,7 @@
             </div>
         </section>
 
-    <!-- Section 3 Activitys -->
+<!-- Section 4 Activitys -->
 
         <section class="activitys size" id="activitys">
             <h2 class="titleact">Activités à Marseille</h2>
@@ -284,7 +299,7 @@
         </section>
         
 
-        <!-- Footer -->
+<!-- Footer -->
         
         <footer>
             <div class="footer">

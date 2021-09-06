@@ -23,9 +23,11 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.nav2 {
+    display: none;
+}
   
-
-
 .logo {
     width: 120px;
     height: 50px;
@@ -38,7 +40,6 @@ nav {
     width: 25%;
     list-style-type: none;
     padding: 30px;
-    font-weight: 550;
 }
   
 .nav-itemA {
@@ -128,7 +129,6 @@ nav {
     border-radius: 0 14px 14px 0;
     background-color: #0065fc;
     color: white;
-    font-weight: 550;
     font-size: larger;
     padding: 10px;
     cursor: pointer
@@ -196,7 +196,7 @@ nav {
     margin-right: 10px;
 }
   
-  /* Accomodations */
+  /* Section 2 Accommodation */
 
 .results {
     display: flex;
@@ -214,11 +214,11 @@ nav {
     justify-content: space-around;
 }
 
-.titlehbgt {
+.titleacco {
     margin-top: 5px;
 }
 
-.imghbgmt {
+.imgacco {
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
@@ -295,7 +295,7 @@ nav {
     color: #D9D9D9;
 }
 
-  /* Popular */
+  /* Section 3 Popular */
   
 .popular {
     flex: 1;
@@ -377,7 +377,7 @@ nav {
     font-size: 70%;
 }
 
-  /* Activity*/
+  /* Section 4 Activitys*/
 
 .activitys {
     margin-top: 50px;
@@ -395,7 +395,6 @@ nav {
 .acticards1 {
     width: 22%;
     height: 500px;
-    
 }
 
 .acticards2 {
@@ -510,6 +509,9 @@ nav {
 }
 
 @media screen and (max-width: 1280px) {
+
+    /* Navigation */
+
     .size, .sizehead {
         margin-left: 0px;
         margin-right: 0px;
@@ -524,11 +526,24 @@ nav {
     .nav-itemB {
         margin-right: 0px;
     }
+
+    /* Section 2 Accommodation */
     
     #accomodations {
         flex-direction: column-reverse;
         width: 100%;
     }
+
+    .accomodations {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+        border-radius: 0;
+    }
+
+    /* Popular */
 
     .popular {
         flex: none;
@@ -543,18 +558,11 @@ nav {
         margin-left: -25px;
     }
 
-    .accomodations {
-        flex: none;
-        width: 90%;
-        margin-right: 0;
-        margin-top: 50px;
-        padding: 5%;
-        border-radius: 0;
-     }
-
 }
 
 @media screen and (max-width: 1040px) {
+
+    /* Filters */
 
     .filters {
         flex-direction: column;
@@ -571,21 +579,25 @@ nav {
         margin-bottom: 15px;
     }
 
-    .acticards {
-        flex-direction: column;
-        height: auto;
+    /* Section 3 Popular */
+
+     .imgpop {
+        margin-left: -20px;
     }
+
+    /* Section 4 Activitys*/
 
     .titleact {
         margin-bottom: 30px;
     }
 
-    .imgpop {
-        margin-left: -20px;
-    }
-
     .activitys {
         margin-bottom: 0px;
+    }
+
+    .acticards {
+        flex-direction: column;
+        height: auto;
     }
 
     .acticards1, .acticards3 {
@@ -613,6 +625,8 @@ nav {
 
 @media screen and (max-width: 990px) {
 
+    /* Filters */
+
     .filters {
         align-items: flex-start;
     }
@@ -621,9 +635,13 @@ nav {
         padding-left: 0px;
     }
 
+    /* Section 3 Popular */
+
     .imgpop {
         margin-left: -12px;
     }
+
+    /*Footer*/
 
     .footer {
         flex-direction: column;
@@ -640,6 +658,8 @@ nav {
 }
 
 @media screen and (max-width: 770px) {
+
+    /* Section 2 Accommodation */
   
     .accomodations {
         height: auto;
@@ -663,6 +683,8 @@ nav {
         box-shadow: 0 0 20px #0000002e;
     }
 
+    /* Section 3 Popular */
+
     .pop {
         margin-bottom: 15px;
     }
@@ -683,14 +705,67 @@ nav {
 
 @media screen and (max-width: 660px) {
 
-    ul {
-        flex-wrap: wrap-reverse
+    /* Navigation */
+
+    .logo {
+        margin-left: 10px;
+        width: auto;
     }
 
-    .nav-itemA, .nav-itemB {
-        display: inline;
+    .nav1 {
+        display: none;
     }
 
+    .nav2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .nav-list2 {
+        display: flex;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+
+    .nav-itemA2 {
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: -50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+    }
+
+    .nav-itemA2:hover {
+        color: #0065fc;
+        border-bottom: 3px solid #0065fc;
+        
+    }
+
+    .nav-itemB2 {
+        color: black;
+        border-bottom: 3px solid #f2f2f2;
+        text-decoration: none;
+        font-weight: 500; 
+        padding-bottom: 15px;
+        padding-left: 70px;
+        padding-right: 50px;    
+    }
+
+    .nav-itemB2:hover {
+        color: #0065fc;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .nav-itemC {
+        padding: 0px;
+        margin-right: -30px;
+    }
+
+    /* Section 1 - Research */
 
     .searchbar {
         justify-content: start;
@@ -710,5 +785,4 @@ nav {
         color: #fff;
         display: block;
     }
-    
 }
