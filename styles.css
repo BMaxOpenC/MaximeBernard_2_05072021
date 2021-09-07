@@ -795,6 +795,8 @@ nav {
 
 @media screen and (max-width: 500px) {
 
+    /* Navigation */
+
     .nav1 {
         display: none;
     }
