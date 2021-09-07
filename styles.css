@@ -628,6 +628,7 @@ nav {
     .imgacti1-4, .imgacti2, .imgacti3, .imgacti5, .imgacti6 {
         height: 150px;
     }
+}
 
 @media screen and (max-width: 990px) {
 
