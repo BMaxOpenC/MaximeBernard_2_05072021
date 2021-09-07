@@ -778,13 +778,16 @@ nav {
     .searchbar {
         justify-content: start;
     }
+
     .researchbutton {
         width: 50px;
         border-radius: 15px;
     }
+
     .researchbutton .research {
         display: none;
     }
+
     .researchbutton .fa-search {
         background-color: #0065FC;
         color: #fff;
@@ -806,4 +809,5 @@ nav {
         flex-wrap: wrap;
         margin-top: 15px;
     }
+    
 }
