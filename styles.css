@@ -708,7 +708,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 667px) {
 
     /* Section 1 - Research */
 
@@ -791,7 +791,7 @@ nav {
     .nav-itemC {
         position: absolute;
         top: 0;
-        padding-left: 260px;
+        padding-left: 240px;
         padding-top: 25px;
         margin-left: 20px;
     }
