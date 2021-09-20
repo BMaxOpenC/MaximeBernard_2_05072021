@@ -634,11 +634,16 @@ nav {
     .filters {
         align-items: flex-start;
         margin-right: 5px;
+        font-size: medium;
     }
 
     .filtersection {
         flex-wrap: wrap;
         padding-left: 0px;
+    }
+
+    .iconfilter {
+        margin-right: 10px;
     }
 
     /* Section 3 Popular */
@@ -715,6 +720,10 @@ nav {
 
     .searchbar {
         justify-content: start;
+    }
+
+    .researchplace {
+        width: 230px;
     }
 
     .researchbutton {
